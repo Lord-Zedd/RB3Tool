@@ -76,7 +76,7 @@ namespace RB3Tool
 
 		public Character(string fileName, FileStream fs, BinaryReader br, int index, List<int> charBaseA, List<int> charBaseB)
 		{
-			int currentChar = charBaseA[index];
+			int currentChar = charBaseB[index];
 			
 			// store stuff from mainwindow
 			charIndex = index;

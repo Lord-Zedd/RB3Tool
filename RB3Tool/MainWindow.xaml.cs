@@ -69,7 +69,7 @@ namespace RB3Tool
 				{
 					fs.Close();
 					br.Close();
-					MessageBox.Show("Nope");
+					MessageBox.Show("This file is not a CON container.");
 					return;
 				}
 				charTabs.Items.Clear();
@@ -101,11 +101,6 @@ namespace RB3Tool
 		{
 			charTabs.Items.Clear();
 			txtFile.Text = "No File Loaded.";
-		}
-
-		public void testo()
-		{
-
 		}
 	}
 }
